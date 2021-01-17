@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"> -->
+    <title>Assignment6</title>
+    <link rel="stylesheet" href="style/index.css">
+</head>
+
+<body>
+    <!-- add/delete row/column-->
+    <div class="div1">
+        <!-- <button id="CreatTable">Create Table</button> -->
+        <button id="btnAddRow">Add Row</button>
+        <button id="btnDeleteRow">Delete Row</button>
+        <button id="btnAddColumn">Add Column</button>
+        <button id="btnDeleteColumn">Delete Column</button>
+        <!-- <button id="btnAddRow" onclick="btnAddRow()">Add Row</button> -->
+        <!-- <button id="btnDeleteRow" onclick="btnDeleteRow()">Delete Row</button> -->
+        <!-- <button id="btnAddColumn" onclick="btnAddColumn()">Add Column</button> -->
+        <!-- <button id="btnDeleteColumn" onclick="btnDeleteColumn()">Delete Column</button> -->
+        <!-- <button id="btnImport" onclick="ImportCSV()">Import</button> -->
+        <!-- <button id="btnSave" onclick="ExportCSV()">Export</button> -->
+    </div>
+    <!-- import -->
+    <div class="div1">
+        <input type="file" id="fileUpload" />
+        <input type="button" id="upload" value="Import"/>
+        <!-- <input type="button" id="upload" value="Import" onclick="ImportCSV()" /> -->
+    </div>
+    <!-- export -->
+    <div class="div1">
+        <button id="btnSave">Export</button>
+    </div>
+    <!-- table -->
+    <div id="div2">
+        <table id="table">
+            <tbody id="tbody">
+            </tbody>
+        </table>
+    </div>
+<!-- rxjs -->
+    <!-- <script language="Javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.js"> -->
+    <!-- </script> -->
+    <script language="Javascript" src="https://cdnjs.cloudflare.com/ajax/libs/rxjs/6.3.3/rxjs.umd.js">
+    </script>
+    <script language="Javascript" src="index.js"></script>
+    <!-- <script src="./index.js"></script> -->
+</body>
+
+</html>

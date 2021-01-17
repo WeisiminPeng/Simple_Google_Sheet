@@ -1,0 +1,32 @@
+/* buttons */
+.div1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* table */
+#div2{
+    width: 3000px;
+}
+table{
+    border-collapse:collapse;
+    table-layout: fixed;
+    word-break: keep-all;
+}
+td{
+    border:black solid 1px;
+    padding:10px;
+    vertical-align: middle;
+    text-align: center; 
+    width: 80px;
+    height: 20px;
+    table-layout: fixed;
+    /* display:inline-block; */
+    word-break: keep-all;
+}
+/* #Row1{
+    color: red;
+} */
+
+ul { list-style-type: none; padding: 20px; }
+li { padding: 20px; background: white; margin-bottom: 5px; }
